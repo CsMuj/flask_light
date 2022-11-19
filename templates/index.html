@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Lighter</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="inspiration-box">
+            <h1>What do you want the light to do?</h1>
+            <form action="/message" method="post">
+                <label class="radio">
+                    <input type="radio" name="message"  placeholder="Message" value="on"> On
+                    <input type="radio" name="message"  placeholder="Message" value="off"> Off
+                    <input type="radio" name="message"  placeholder="Message" value="blink"> Blink
+                    <input type="submit" value="Send" /> 
+                    <div class="circle"></div>
+                </label>
+            </form>
+            <a href="/about">< About Page</a>
+        </div>
+    </main> 
+</body>
+</html>
