@@ -22,6 +22,7 @@ a {
 }
 
 .inspiration-box {
+    margin: auto;
     background-color: white;
     width: 25%;
     padding: 50px;
@@ -33,7 +34,7 @@ input {
     font-family: 'Cabin', sans-serif;
 }
 
-input[type=text], select {
+input[type=radio], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
